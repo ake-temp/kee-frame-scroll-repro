@@ -1,0 +1,13 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+
+        ;; re-frame
+        re-frame/re-frame {:mvn/version "1.3.0"}
+        ;kee-frame/kee-frame {:mvn/version "1.3.2"}
+        kee-frame/kee-frame {:local/root "../../kee-frame/"}
+
+        ;; Server
+        http-kit/http-kit {:mvn/version "2.5.0"}
+
+        ;; Shadow-cljs
+        thheller/shadow-cljs {:mvn/version "2.20.2"}}}
